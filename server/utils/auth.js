@@ -1,5 +1,4 @@
 const jwt = require("jsonwebtoken");
-require("dotenv").config({ path: "../../.env" });
 
 const secret = process.env.JWT_SECRET;
 const expiration = process.env.JWT_EXPIRATION;

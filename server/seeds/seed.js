@@ -1,3 +1,4 @@
+require("dotenv").config({ path: "../.env" });
 const db = require("../config/connection");
 
 const { Profile, Menu } = require("../models");
