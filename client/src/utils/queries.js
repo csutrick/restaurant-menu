@@ -10,8 +10,8 @@ export const QUERY_ME = gql`
 `;
 
 export const QUERY_MENU_ITEMS = gql`
-  query getMenuItems {
-    getMenuItems {
+  query getAllItems {
+    getAllItems {
       _id
       name
       price
